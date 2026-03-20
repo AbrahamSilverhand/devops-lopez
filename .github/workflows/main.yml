@@ -1,11 +1,11 @@
 name: CI/CD Pipeline
 
 on:
-push:
-  branches: [ "main" ]
+  push:
+    branches: [ "main" ]
 
 jobs:
-build:
+ build:
   runs-on: ubuntu-latest
 
   steps:
